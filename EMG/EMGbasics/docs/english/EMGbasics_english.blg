@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: EMGbasics_english.aux
+The style file: unsrtnat.bst
+Database file #1: EMG.bib
+You've used 12 entries,
+            2481 wiz_defined-function locations,
+            622 strings with 7209 characters,
+and the built_in function-call counts, 4013 in all, are:
+= -- 367
+> -- 116
+< -- 14
++ -- 60
+- -- 32
+* -- 219
+:= -- 612
+add.period$ -- 49
+call.type$ -- 12
+change.case$ -- 24
+chr.to.int$ -- 8
+cite$ -- 12
+duplicate$ -- 255
+empty$ -- 442
+format.name$ -- 52
+if$ -- 901
+int.to.chr$ -- 5
+int.to.str$ -- 13
+missing$ -- 11
+newline$ -- 74
+num.names$ -- 36
+pop$ -- 133
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 130
+stack$ -- 0
+substring$ -- 94
+swap$ -- 39
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 81
+warning$ -- 0
+while$ -- 31
+width$ -- 0
+write$ -- 176

@@ -1,0 +1,114 @@
+\begin{thebibliography}{17}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Kumar et~al.(2009)Kumar, Singh, and Kumar]{kumar2009hand}
+A.~Kumar, T.~Singh, and A.~Kumar.
+\newblock Hand anatomy.
+\newblock \emph{Biometrics Research Laboratory, Department of Electrical
+  Engineering, Indian Institute of Technology Dehli, New Dehli, India}, pages
+  1--11, 2009.
+
+\bibitem[Panchal-Kildare and Malone(2013)]{panchal2013skeletal}
+S.~Panchal-Kildare and K.~Malone.
+\newblock Skeletal anatomy of the hand.
+\newblock \emph{Hand Clinics}, 29\penalty0 (4):\penalty0 459--471, 2013.
+
+\bibitem[{OpenStax CNX}({\natexlab{a}})]{openStaxBones}
+{OpenStax CNX}.
+\newblock {5.2 Bone Classification}.
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University,
+  {\natexlab{a}}.
+\newblock Available at
+  \href{https://cnx.org/contents/wpkg\_88R@2.57:8x7YlLHu@4/Bone-Classification}{https://cnx.org/contents/wpkg\_88R@2.57:8x7YlLHu@4/Bone-Classification}.
+
+\bibitem[Duncan et~al.(2013)Duncan, Saracevic, and
+  Kakinoki]{duncan2013biomechanics}
+S.F.M. Duncan, C.E. Saracevic, and R.~Kakinoki.
+\newblock Biomechanics of the hand.
+\newblock \emph{Hand Clinics}, 29\penalty0 (4):\penalty0 483--492, 2013.
+
+\bibitem[Tavakoli et~al.(2016)Tavakoli, Batista, and Sgrigna]{tavakoli2016uc}
+M.~Tavakoli, R.~Batista, and L.~Sgrigna.
+\newblock The uc softhand: light weight adaptive bionic hand with a compact
+  twisted string actuation system.
+\newblock \emph{Actuators}, 5\penalty0 (1):\penalty0 1--12, 2016.
+
+\bibitem[Tortora and Derrickson(2014)]{tortora2014principles}
+G.J. Tortora and B.~Derrickson.
+\newblock \emph{Principles of Anatomy \& Physiology}.
+\newblock John Wiley \& Sons, 14 edition, 2014.
+
+\bibitem[Ombregt(2013)]{ombregt2013applied}
+L.~Ombregt.
+\newblock Applied anatomy of the wrist, thumb and hand.
+\newblock In \emph{A System of Orthopaedic Medicine}, pages 102--111. Elsevier
+  Health Sciences, 3 edition, 2013.
+
+\bibitem[{OpenStax CNX}({\natexlab{b}})]{openStaxMuscles}
+{OpenStax CNX}.
+\newblock {11.5 Muscles of the Pectoral Girdle and Upper Limbs}.
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University,
+  {\natexlab{b}}.
+\newblock Available at
+  \href{https://cnx.org/contents/FPtK1zmh@6.27:qOq5t3Jz@3/Muscles-of-the-Pectoral-Girdle-and-Upper-Limbs}{https://cnx.org/contents/FPtK1zmh@6.27:qOq5t3Jz@3/Muscles-of-the-Pectoral-Girdle-and-Upper-Limbs}.
+
+\bibitem[Schreuders et~al.(2007)Schreuders, Brandsma, and
+  Stam]{schreuders2007intrinsic}
+T.A.R. Schreuders, J.W. Brandsma, and H.J. Stam.
+\newblock The intrinsic muscles of the hand.
+\newblock \emph{Physikalische Medizin, Rehabilitationsmedizin, Kurortmedizin},
+  17\penalty0 (01):\penalty0 20--27, 2007.
+
+\bibitem[Brains()]{backyardBrainsHand}
+Backyard Brains.
+\newblock Experiment: Signal classification.
+
+\bibitem[Kirkendall and Garrett(1997)]{kirkendall1997function}
+D.T. Kirkendall and W.E. Garrett.
+\newblock Function and biomechanics of tendons.
+\newblock \emph{Scandinavian Journal of Medicine \& Science in Sports},
+  7\penalty0 (2):\penalty0 62--66, 1997.
+
+\bibitem[Kluwer()]{videoAtlas}
+¡Wolters Kluwer.
+\newblock Acland's video atlas of human anatomy.
+
+\bibitem[Valenzuela and M.(2018)]{valenzuela2018lumbricals}
+M.~Valenzuela and Varacallo M.
+\newblock Anatomy, shoulder and upper limb, hand lumbrical muscles.
+\newblock In \emph{StatPearls [Internet]}. StatPearls Publishing, 2018.
+\newblock Available from
+  \href{https://www.ncbi.nlm.nih.gov/books/NBK534876/}{https://www.ncbi.nlm.nih.gov/books/NBK534876/}.
+
+\bibitem[Ziegler-Graham et~al.(2008)Ziegler-Graham, MacKenzie, Ephraim,
+  Travison, and Brookmeyer]{ziegler2008estimating}
+K.~Ziegler-Graham, E.J. MacKenzie, P.L. Ephraim, T.G. Travison, and
+  R.~Brookmeyer.
+\newblock Estimating the prevalence of limb loss in the united states: 2005 to
+  2050.
+\newblock \emph{Archives of Physical Medicine and Rehabilitation}, 89\penalty0
+  (3):\penalty0 422--429, 2008.
+
+\bibitem[Maat et~al.(2018)Maat, Smit, Plettenburg, and
+  Breedveld]{maat2018passive}
+B.~Maat, G.~Smit, D.~Plettenburg, and P.~Breedveld.
+\newblock Passive prosthetic hands and tools: A literature review.
+\newblock \emph{Prosthetics and Orthotics International}, 42\penalty0
+  (1):\penalty0 66--74, 2018.
+
+\bibitem[ten Kate et~al.(2017)ten Kate, , Smit, and Breedveld]{ten20173d}
+J.~ten Kate, , G.~Smit, and P.~Breedveld.
+\newblock 3d-printed upper limb prostheses: a review.
+\newblock \emph{Disability and Rehabilitation: Assistive Technology},
+  12\penalty0 (3):\penalty0 300--314, 2017.
+
+\bibitem[Geethanjali(2016)]{geethanjali2016myoelectric}
+Purushothaman Geethanjali.
+\newblock Myoelectric control of prosthetic hands: state-of-the-art review.
+\newblock \emph{Medical Devices (Auckland, NZ)}, 9:\penalty0 247, 2016.
+
+\end{thebibliography}

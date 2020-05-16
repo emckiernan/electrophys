@@ -1,0 +1,98 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Khan Academy}({\natexlab{a}})]{khanHeart}
+{Khan Academy}.
+\newblock The heart is a double pump, {\natexlab{a}}.
+\newblock Retrieved November 2018 from
+  \href{https://www.khanacademy.org/science/health-and-medicine/circulatory-system/circulatory-system-introduction/a/the-heart-is-a-double-pump}{https://www.khanacademy.org/science/health-and-medicine/circulatory-system/circulatory-system-introduction/a/the-heart-is-a-double-pump}.
+
+\bibitem[Mohrman and Heller(2006)]{mohrman2006cardiovascular}
+D.E. Mohrman and L.J. Heller.
+\newblock \emph{Cardiovascular Physiology}.
+\newblock Lange Medical Books/McGraw-Hill New York, 2006.
+
+\bibitem[Sperelakis(2012)]{sperelakis2012cell}
+N.~Sperelakis.
+\newblock \emph{{Cell Physiology Source Book: Essentials of Membrane
+  Biophysics}}.
+\newblock Elsevier, 2012.
+
+\bibitem[{Khan Academy}({\natexlab{b}})]{khanWork}
+{Khan Academy}.
+\newblock Your heart does work: A relationship of pressure and volume,
+  {\natexlab{b}}.
+\newblock Retrieved November 2018 from
+  \href{https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/your-heart-does-work--a-relationship-of-pressure-and-volume}{https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/your-heart-does-work--a-relationship-of-pressure-and-volume}.
+
+\bibitem[{Khan Academy}({\natexlab{c}})]{khanPV}
+{Khan Academy}.
+\newblock Understanding cardiac pressure-volume curves, {\natexlab{c}}.
+\newblock Retrieved December 2018 from
+  \href{https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/understanding-cardiac-pressure-volume-curves}{https://www.khanacademy.org/test-prep/mcat/physical-sciences-practice/physical-sciences-practice-tut/e/understanding-cardiac-pressure-volume-curves}.
+
+\bibitem[{OpenStax CNX}({\natexlab{a}})]{openStaxHeart}
+{OpenStax CNX}.
+\newblock {19.1 Heart Anatomy}.
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University,
+  {\natexlab{a}}.
+\newblock Available at
+  \href{https://cnx.org/contents/FPtK1zmh@12.8:Y5T\_wVSC@7/Heart-Anatomy}{https://cnx.org/contents/FPtK1zmh@12.8:Y5T\_wVSC@7/Heart-Anatomy}.
+
+\bibitem[{OpenStax CNX}({\natexlab{b}})]{openStaxCycle}
+{OpenStax CNX}.
+\newblock {19.3 Cardiac Cycle}.
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University,
+  {\natexlab{b}}.
+\newblock Available at
+  \href{https://cnx.org/contents/FPtK1zmh@12.8:IsP5aaud@6/Cardiac-Cycle}{https://cnx.org/contents/FPtK1zmh@12.8:IsP5aaud@6/Cardiac-Cycle}.
+
+\bibitem[Guyton and Hall(2016)]{guyton2016book}
+A.C. Guyton and J.E. Hall.
+\newblock \emph{Textbook of Medical Physiology}.
+\newblock Elsevier, Inc., Philadelphia, Pennsylvania, USA, 13 edition, 2016.
+
+\bibitem[McCall(2010)]{mccall2010physics}
+R.P. McCall.
+\newblock \emph{Physics of the Human Body}.
+\newblock The Johns Hopkins University Press, 2010.
+
+\bibitem[{OpenStax CNX}({\natexlab{c}})]{openStaxElectrical}
+{OpenStax CNX}.
+\newblock {19.2 Cardiac Muscle and Electrical Activity.}
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University,
+  {\natexlab{c}}.
+\newblock Available at
+  \href{https://openstax.org/books/anatomy-and-physiology/pages/19-2-cardiac-muscle-and-electrical-activity}{https://openstax.org/books/anatomy-and-physiology/pages/19-2-cardiac-muscle-and-electrical-activity}.
+
+\bibitem[DiFrancesco and Noble(2012)]{difrancesco2012funny}
+D.~DiFrancesco and D.~Noble.
+\newblock The funny current has a major pacemaking role in the sinus node.
+\newblock \emph{Heart Rhythm}, 9\penalty0 (2):\penalty0 299--301, 2012.
+
+\bibitem[Feher(2012)]{feher2012quantitative}
+J.~Feher.
+\newblock The heart as a pump.
+\newblock In \emph{Quantitative Human Physiology: An Introduction (Second
+  Edition)}, pages 516--524. Academic Press, Philadelphia, Pennsylvania, USA,
+  2012.
+
+\bibitem[Klabunde()]{CVphys}
+R.E. Klabunde.
+\newblock Cardiovascular physiology concepts: Electrocardiogram (ekg, ecg).
+
+\bibitem[Brains()]{backyardBrainsECG}
+Backyard Brains.
+\newblock Experiment: Heart action potentials.
+
+\bibitem[Brains(2015)]{spikeRecorder}
+Backyard Brains.
+\newblock Spike recorder documentation: Getting started, 2015.
+\newblock Retrieved November 2017 from
+  \href{https://backyardbrains.com/products/files/SpikeRecorderDocumentation.2015.01.pdf}{https://backyardbrains.com/products/files/SpikeRecorderDocumentation.2015.01.pdf}.
+
+\end{thebibliography}

@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: EMGprosthetic.aux
+The style file: unsrtnat.bst
+Database file #1: refs.bib
+Warning--empty year in openStaxBones
+Warning--empty year in openStaxMuscles
+Warning--empty year in backyardBrainsHand
+Warning--empty year in videoAtlas
+You've used 17 entries,
+            2481 wiz_defined-function locations,
+            661 strings with 7557 characters,
+and the built_in function-call counts, 6314 in all, are:
+= -- 550
+> -- 273
+< -- 12
++ -- 113
+- -- 78
+* -- 455
+:= -- 984
+add.period$ -- 56
+call.type$ -- 17
+change.case$ -- 35
+chr.to.int$ -- 16
+cite$ -- 21
+duplicate$ -- 343
+empty$ -- 622
+format.name$ -- 103
+if$ -- 1361
+int.to.chr$ -- 2
+int.to.str$ -- 18
+missing$ -- 16
+newline$ -- 94
+num.names$ -- 51
+pop$ -- 160
+preamble$ -- 1
+purify$ -- 17
+quote$ -- 0
+skip$ -- 192
+stack$ -- 0
+substring$ -- 267
+swap$ -- 50
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 116
+warning$ -- 4
+while$ -- 57
+width$ -- 0
+write$ -- 228
+(There were 4 warnings)

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Erin C. McKiernan" />
+  <title>Electrocardiography basics: recording the electrical activity of the heart before and after exercise</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title"><span><strong>Electrocardiography basics: recording the electrical activity of the heart before and after exercise</strong></span></h1>
+<p class="author">Erin C. McKiernan</p>
+</header>
+<h1 class="unnumbered" id="overview">OVERVIEW</h1>
+<p>In this laboratory practical, students will learn how the heart works as a pump, and how this function is related to the electrical activity of different cells in the heart. Students will learn about the basics of electrocardiography, and record their electrocardiograms at rest and after exercise to see how the heart rhythm changes with activity. Overall, this practical will help students to better understand carviovascular physiology and the importance of electrical signals in the heart.</p>
+<h1 class="unnumbered" id="specifications">SPECIFICATIONS</h1>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Level of study:</strong></td>
+<td style="text-align: left;">Undergraduate</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Degree programs:</strong></td>
+<td style="text-align: left;">Biology, Physics, Biomedical Physics, others</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Semester:</strong></td>
+<td style="text-align: left;">4th (i.e. 2nd year undergrads)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>For use in courses:</strong></td>
+<td style="text-align: left;">Systems Physiology, others</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Recommended prior courses:</strong></td>
+<td style="text-align: left;">Molecular &amp; Cellular Biology</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Duration of practical:</strong></td>
+<td style="text-align: left;">1-2 hours</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Setting:</strong></td>
+<td style="text-align: left;">Classroom or laboratory</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Safety considerations:</strong></td>
+<td style="text-align: left;">Students should not eat for at least 30 minutes prior, have water and chairs available for rest after physical activity</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Other indications:</strong></td>
+<td style="text-align: left;">Wear loose clothing to permit electrode placement</td>
+</tr>
+</tbody>
+</table>
+<h1 class="unnumbered" id="objectives">OBJECTIVES</h1>
+<p><strong>Before doing this lab you should be able to:</strong></p>
+<ul>
+<li><p>describe the basic anatomy of the heart</p></li>
+<li><p>identify the different cell types in the heart</p></li>
+<li><p>understand the basics of action potential generation in excitable cells</p></li>
+<li><p>understand the basics of heart muscle contraction</p></li>
+</ul>
+<p><strong>In this lab you will:</strong></p>
+<ul>
+<li><p>learn how to record electrocardiagrams (ECGs)</p></li>
+<li><p>identify and measure the different waves and intervals in the ECG</p></li>
+<li><p>observe and record changes in the ECG before and after physical activity</p></li>
+</ul>
+<p><strong>After doing this lab you should be able to:</strong></p>
+<ul>
+<li><p>explain the relationship between heart cell electrical activity and heart function</p></li>
+<li><p>understand the basics of ECG recording</p></li>
+<li><p>design further experiments to investigate the activity of the heart under different conditions or in combination with other recordings</p></li>
+</ul>
+<h1 class="unnumbered" id="equipment">EQUIPMENT</h1>
+<ul>
+<li><p>Heart &amp; Brain SpikerShield with integrated Arduino (Backyard Brains)</p></li>
+<li><p>3 surface electrodes (Backyard Brains or other provider)</p></li>
+<li><p>cable with alligator clips to connect electrodes to SpikerShield (Backyard Brains)</p></li>
+<li><p>USB cable to connect SpikerShield to computer (Backyard Brains)</p></li>
+<li><p>Computer with free Backyard Brains SpikeRecorder software installed (note that a smartphone or tablet will not work, since cable connects to USB port)</p></li>
+</ul>
+<h1 class="unnumbered" id="background">BACKGROUND</h1>
+<h2 class="unnumbered" id="the-heart-as-a-pump">The heart as a pump</h2>
+<p>The principal function of the heart is to pump blood. In fact, the heart can be thought of as a system of two pumps working in sync: one pump that sends blood to the lungs to be oxygenated, and another that pumps blood to the rest of the body to provide oxygen and nutrients to tissues and organs <span class="citation" data-cites="khanHeart mohrman2006cardiovascular">(Khan Academy, n.d.a; Mohrman and Heller 2006)</span>. Why is the pumping action of the heart necessary? Why not simply allow gases and nutrients to travel by diffusion to tissues and organs? We know from Fick’s Law that the rate of diffusion is inversely proportional to distance <span class="citation" data-cites="khanHeart sperelakis2012cell">(Khan Academy, n.d.a; Sperelakis 2012)</span>. Therefore, diffusion works well over short distances, but is far too slow to be physiologically effective over large distances. We need the heart and its pumping action to get blood quickly to destinations that are large distances away. Once there, the short distances within tissues and organs facilitate gas and nutrient exchange.</p>
+<p>Each time the heart pumps blood it does external mechanical work <span class="citation" data-cites="mohrman2006cardiovascular khanWork">(Mohrman and Heller 2006; Khan Academy, n.d.c)</span>. In fluid systems, the work performed is given by</p>
+<p><br /><span class="math display">Work = Pressure of the fluid x Volume of the fluid</span><br /></p>
+<p>In the case of the heart, we are interested in the work done with each heart beat, called the stroke work, which is calculated by multiplying the pressure of the blood by the volume of blood moved (stroke volume). We can visualize the pressure and volume changes as the heart pumps with a pressure-volume loop <span class="citation" data-cites="khanPV">(Khan Academy, n.d.b)</span> (Fig. <a href="#fig:pvLoop" data-reference-type="ref" data-reference="fig:pvLoop">1</a>).</p>
+<figure>
+<img src="figures/pvLoop.png" id="fig:pvLoop" style="width:70.0%" alt="" /><figcaption>Pressure-volume loop for the left ventricle. Image: Erin C. McKiernan, CC BY.</figcaption>
+</figure>
+<p>For simplicity, we can start by modeling the heart as a “single-chamber pump” with inflow and outflow valves <span class="citation" data-cites="khanWork">(Khan Academy, n.d.c)</span>. At point A. in Fig. <a href="#fig:pvLoop" data-reference-type="ref" data-reference="fig:pvLoop">1</a>, the inflow valve opens and the chamber fills with blood, increasing the volume. At B., the inflow valve closes and a force is exerted on the blood in the chamber (we will see later that this force is due to heart muscle contraction). Because the blood cannot escape the chamber while the valves are closed, pressure rises. Eventually, the pressure is sufficient to open the outflow valve (C.) and blood exits the heart. At D., the outflow valve closes again, muscle relaxes, force is no longer exerted on the blood, and the pressure drops. The difference between points B. and A. gives the stroke volume, while the area inside the loop equals the stroke work. Pressure-volume loops can be used to assess the function of the heart under different conditions, or to diagnose diseases where the pumping of the heart may be compromised. For more information and practice exercises, see <span class="citation" data-cites="khanPV">(Khan Academy, n.d.b)</span>.</p>
+<h2 class="unnumbered" id="anatomy-of-the-heart">Anatomy of the heart</h2>
+<p>To understand more about the function of the heart, it is important to go beyond the single-pump chamber model and look in detail at its anatomy (Fig. <a href="#fig:heart" data-reference-type="ref" data-reference="fig:heart">2</a>). The heart has four chambers – two atria in the upper region of the heart and two ventricles in the lower region <span class="citation" data-cites="mohrman2006cardiovascular khanHeart openStaxHeart">(Mohrman and Heller 2006; Khan Academy, n.d.a; OpenStax CNX, n.d.a)</span>. Blood that has circulated throughout the body and is now low in oxygen arrives to the right side of the heart via the superior and inferior vena cavae, filling the right atrium. Blood that has just been oxygenated in the lungs returns to the heart via the pulmonary vein, filling the left atrium.</p>
+<p>Blood flow from the atria to the ventricles is controlled by valves. The tricuspid valve controls flow from the right atrium to the right ventricle, while the mitral valve controls flow from the left atrium to the left ventricle. Flow from the ventricles is also controlled by valves. The pulmonary valve controls flow from the right ventricle through the pulmonary artery, while the aortic valve controls flow from the left ventricle through the aorta. Blood within the right ventricle exits the heart via the pulmonary artery, which carries blood to the lungs to be oxygenated. Blood within the left ventricle exits the heart via the aorta and circulates to the rest of the body <span class="citation" data-cites="mohrman2006cardiovascular khanHeart openStaxHeart">(Mohrman and Heller 2006; Khan Academy, n.d.a; OpenStax CNX, n.d.a)</span>.</p>
+<figure>
+<img src="figures/heart.png" id="fig:heart" style="width:65.0%" alt="" /><figcaption>Anatomy of the heart. Image: Wapcaplet via Wikimedia Commons, CC BY-SA.</figcaption>
+</figure>
+<h2 class="unnumbered" id="cardiac-cycle">Cardiac cycle</h2>
+<p>The sequence of events that occur with each heart beat to pump blood between the chambers and eventually out of the heart is called the cardiac cycle <span class="citation" data-cites="openStaxCycle guyton2016book">(OpenStax CNX, n.d.c; Guyton and Hall 2016)</span>. The cardiac cycle can be divided into two principal phases, systole and diastole. In general, diastole refers to a period when the musculature of a given chamber relaxes and the chamber fills with blood, while systole occurs when the musculature contracts and blood is ejected from the chamber. Both the atria and ventricles undergo systole and diastole, but these occur at different times.</p>
+<p>The cardiac cycle begins with both the atria and ventricles in diastole, i.e. relaxed and filling with blood (Fig. <a href="#fig:cycle" data-reference-type="ref" data-reference="fig:cycle">3</a>). At this time, since the tricuspid and mitral valves are open, blood can flow freely from the atria to the ventricles and fill the latter up to 80% <span class="citation" data-cites="guyton2016book openStaxCycle">(Guyton and Hall 2016; OpenStax CNX, n.d.c)</span>. Next, while the ventricles are still in diastole, the atria enter into systole, contracting and ejecting the remaining blood into the ventricles to complete filling. Once the ventricles are full, the tricuspid and mitral valves close and the ventricles start to contract, marking the beginning of ventricular systole. Since all the heart valves are closed, and because we know that liquids are largely incompressible <span class="citation" data-cites="mccall2010physics">(McCall 2010)</span>, ventricular contraction during this period occurs isovolumetrically (at constant volume) and intraventricular pressure rises.</p>
+<figure>
+<img src="figures/cardiacCycle.png" id="fig:cycle" style="width:70.0%" alt="" /><figcaption>Events of the cardiac cycle. Image: OpenStax College <span class="citation" data-cites="openStaxCycle">(OpenStax CNX, n.d.c)</span>, CC BY.</figcaption>
+</figure>
+<p>As ventricular contraction continues, the pressures in the right and left ventricles rise above the pressures in the pulmonary artery and aorta, respectively. This allows the pulmonary and aortic valves to open, and blood is ejected from the heart. As blood exits the ventricles and the musculature relaxes, the ventricles return to diastole and the pressure drops, causing the pulmonary and aortic valves to close. With all valves closed, the ventricles relax isovolumetrically at first. However, when the ventricular pressure drops below the atrial pressure, the tricuspid and mitral valves open and blood flows from the upper to lower chambers, and the cycle begins again <span class="citation" data-cites="guyton2016book openStaxCycle">(Guyton and Hall 2016; OpenStax CNX, n.d.c)</span>.</p>
+<h2 class="unnumbered" id="electrical-activity-in-the-heart">Electrical activity in the heart</h2>
+<h3 class="unnumbered" id="nodal-and-conducting-cells">Nodal and conducting cells</h3>
+<p>The electrical signals which drive rhythmic muscle contractions in the heart originate in the sinoatrial (SA) node <span class="citation" data-cites="openStaxElectrical mohrman2006cardiovascular">(OpenStax CNX, n.d.b; Mohrman and Heller 2006)</span>, which is located in the upper right atrium (Fig. <a href="#fig:conduction" data-reference-type="ref" data-reference="fig:conduction">4</a>).</p>
+<figure>
+<img src="figures/conduction.png" id="fig:conduction" style="width:85.0%" alt="" /><figcaption>Electrical conduction system in the heart. Image: Madhero88 via Wikimedia Commons, CC BY.</figcaption>
+</figure>
+<p>In the SA node, a group of special myocardial cells self-generate regular electrical impulses called action potentials (APs), thereby acting as pacemakers. Unlike many excitable cells, SA node cells do not have a resting membrane potential <span class="citation" data-cites="openStaxElectrical mohrman2006cardiovascular">(OpenStax CNX, n.d.b; Mohrman and Heller 2006)</span>. Instead, their membrane potential continuously varies due to the interplay of different calcium, sodium, and potassium currents (Fig. <a href="#fig:nodeAP" data-reference-type="ref" data-reference="fig:nodeAP">5</a>). The upstroke of the AP is caused when calcium channels in the cell membrane open, allowing calcium to enter the cell down its electrochemical gradient, depolarizing the cell. Shortly after, potassium channels open, allowing these ions to exit the cell along their gradient, repolarizing the cell. Once the membrane potential reaches hyperpolarized values (<span class="math inline">∼</span> -60 mV), channels which carry primarily sodium ions open and allow these ions to enter the cell, causing it to slowly depolarize. This small, primarily sodium-based current has been called the ‘pacemaker current’ or the ‘funny current’ <span class="citation" data-cites="difrancesco2012funny">(DiFrancesco and Noble 2012)</span>. Once this slow depolarization brings the membrane potential within a certain voltage range, calcium channels open again and generate another AP. In this way, the ion channel dynamics sustain regular, rhythmic AP firing. While nodal cells can generate pacemaking activity without nervous system input, the frequency of their firing can be regulated by the autonomic nervous system <span class="citation" data-cites="openStaxElectrical mohrman2006cardiovascular">(OpenStax CNX, n.d.b; Mohrman and Heller 2006)</span>.</p>
+<figure>
+<img src="figures/pacemaker.jpg" id="fig:nodeAP" style="width:85.0%" alt="" /><figcaption>Pacemaker AP firing in nodal cells. Image: OpenStax <span class="citation" data-cites="openStaxElectrical">(OpenStax CNX, n.d.b)</span>, CC BY.</figcaption>
+</figure>
+<p>Electrical impulses generated in SA nodal cells propagate to a similar set of cells in the atrioventricular (AV) node <span class="citation" data-cites="openStaxElectrical mohrman2006cardiovascular">(OpenStax CNX, n.d.b; Mohrman and Heller 2006)</span>, located in the lower part of the right atrium (Fig. <a href="#fig:conduction" data-reference-type="ref" data-reference="fig:conduction">4</a>). AV nodal cells produce APs similar to those seen in SA nodal cells (Fig. <a href="#fig:nodeAP" data-reference-type="ref" data-reference="fig:nodeAP">5</a>) and are capable of taking over pacemaking activity, if necessary <span class="citation" data-cites="feher2012quantitative guyton2016book">(Feher 2012; Guyton and Hall 2016)</span>. Under normal conditions, however, AV cells receive input from SA cells that drive the rhythm. The conduction time between the two nodes serves as a delay to allow myocytes in the atria to depolarize before signals are sent to the ventricles, and helps maintain the different phases of the cardiac cycle.</p>
+<p>APs produced in AV nodal cells travel first down the bundle of His, then to each ventricle via the right and left bundle branches, and finally to the Purkinje fibers, which spread throughout the ventricular walls <span class="citation" data-cites="openStaxElectrical feher2012quantitative">(OpenStax CNX, n.d.b; Feher 2012)</span>. Collectively, the above components make up the electrical conduction system of the heart, responsible for carrying signals quickly to contractile myocytes to produce coordinated contraction and efficient pumping action.</p>
+<h3 class="unnumbered" id="contractile-myocytes">Contractile myocytes</h3>
+<p>Around 99% of cells in the heart are contractile myocytes <span class="citation" data-cites="openStaxElectrical">(OpenStax CNX, n.d.b)</span>. These are the muscle cells that contract to develop tension and accomplish the pumping action of the heart.</p>
+<p>The action potentials generated in contractile myocytes are different than those generated in nodal cells <span class="citation" data-cites="mohrman2006cardiovascular openStaxElectrical">(Mohrman and Heller 2006; OpenStax CNX, n.d.b)</span>. Unlike in nodal cells, where the upstroke is due primarily to calcium influx, the upstroke in contractile cells results from sodium influx (Fig. <a href="#fig:ventAP" data-reference-type="ref" data-reference="fig:ventAP">6</a>). Shortly after opening, sodium channels close and inactivate, leading cells to briefly repolarize slightly (note the notch in the AP in Fig. <a href="#fig:ventAP" data-reference-type="ref" data-reference="fig:ventAP">6</a>). However, calcium channels soon open, allowing these ions to enter and keep the cell depolarized for a prolonged period (<span class="math inline">∼</span>100-200 ms), creating a plateau potential. Finally, the calcium channels close, and that together with potassium efflux repolarizes the cell. Contractile cells, unlike nodal cells, do have a resting membrane potential, which is close to the potassium equilibrium potential <span class="citation" data-cites="mohrman2006cardiovascular openStaxElectrical">(Mohrman and Heller 2006; OpenStax CNX, n.d.b)</span>. These cells are not typically auto-rhythmic like nodal cells, but fire regularly due to the rhythmic input they receive from the nodal cells via the electrical conduction system.</p>
+<figure>
+<img src="figures/ventricularAP.jpg" id="fig:ventAP" style="width:85.0%" alt="" /><figcaption>Myocyte action potential. Image: OpenStax <span class="citation" data-cites="openStaxElectrical">(OpenStax CNX, n.d.b)</span>, CC BY.</figcaption>
+</figure>
+<p>Contractile cells in the heart are linked by specialized protein complexes called gap junctions <span class="citation" data-cites="openStaxElectrical mohrman2006cardiovascular">(OpenStax CNX, n.d.b; Mohrman and Heller 2006)</span>. Hemichannels present in the membranes of each cell link up to form pores which allow small molecules and ions to pass directly from one cell to the other. In this way, electrical currents can spread between cardiac myocytes and large numbers of cells are excited nearly coincidently to produce coordinated contraction.</p>
+<h2 class="unnumbered" id="measuring-the-electrical-activity-of-the-heart">Measuring the electrical activity of the heart</h2>
+<p>The electrical activity of the heart can be recorded using an electrocardiogram (ECG) <span class="citation" data-cites="openStaxElectrical mohrman2006cardiovascular CVphys">(OpenStax CNX, n.d.b; Mohrman and Heller 2006; Klabunde, n.d.)</span>. The ECG is a type of extracellular recording in which electrodes are placed on the surface of the skin to register the coordinated depolarization and repolarization of groups of heart cells. Depending on the equipment available and the resolution needed, ECG recording involves placement of 3, 5, or 12 leads, with more leads providing better resolution and more precise information about potential heart problems <span class="citation" data-cites="openStaxElectrical">(OpenStax CNX, n.d.b)</span>.</p>
+<p>Electrode placement is key to obtaining a quality ECG recording. Electrodes are typically placed in an inverted equilateral triangle configuration, known as Einthoven’s triangle <span class="citation" data-cites="mohrman2006cardiovascular backyardBrainsECG">(Mohrman and Heller 2006; Brains, n.d.)</span>. In the simplest bipolar configuration (to be used in this practical), the two recording electrodes can be placed on opposite sites of the upper thorax and the reference electrode on the back of the hand or hip bone. Alternatively, the two recording electrodes can be placed on the insides of each wrist and the reference electrode again on the back of the hand <span class="citation" data-cites="backyardBrainsECG">(Brains, n.d.)</span>. Both setups with give us the approximate triangle configuration. However, the latter configuration (on the wrists) appears to be more susceptible to noise (personal observations), and may not work in all subjects.</p>
+<p>Once the electrodes have been placed, measuring the voltage at any two vertices of the triangle and then subtracting gives us the potential difference, and will produce a positive or negative deflection on the ECG depending on the sign of the difference, i.e. the direction of the net electrical dipole <span class="citation" data-cites="mohrman2006cardiovascular">(Mohrman and Heller 2006)</span>. Remember that the ECG is an extracellular recording. Therefore, we are not recording individual APs, but rather the sum of the electrical activity of many cells (Fig. <a href="#fig:ecgAPs" data-reference-type="ref" data-reference="fig:ecgAPs">7</a>).</p>
+<figure>
+<img src="figures/ecgAPs.jpg" id="fig:ecgAPs" style="width:90.0%" alt="" /><figcaption>Action potentials recorded from different cells in the heart and their relation to the events recorded on the ECG. Image credit: Rasel Hossain Md via Wikimedia Commons, CC BY-SA 4.0.</figcaption>
+</figure>
+<p>As multiple cells in the same region of the heart depolarize, excite neighboring cells, and then repolarize, individual electrical dipoles are created which can then be summed to give us the net electrical dipole <span class="citation" data-cites="mohrman2006cardiovascular">(Mohrman and Heller 2006)</span>. For example, as excitation is initiated and then spreads throughout the atria, the net electrical dipole points towards the positive ends of the leads, producing a positive deflection on the ECG. We can thus relate the different waves observed in the ECG to activity within the atria and ventricles during different phases of the cardiac cycle (Fig. <a href="#fig:ecg" data-reference-type="ref" data-reference="fig:ecg">8</a>).</p>
+<figure>
+<img src="figures/ECGcycle.jpg" id="fig:ecg" style="width:90.0%" alt="" /><figcaption>Image credit: Left: OpenStax College <span class="citation" data-cites="openStaxCycle">(OpenStax CNX, n.d.c)</span>, CC BY.</figcaption>
+</figure>
+<p>As we saw previously, the first event in the cardiac cycle is excitation of the nodal pacemaker cells. However, since there are very few of these cells, their activity is not sufficient to be detected with extracellular recording. The first observable ECG event is called the P wave, which corresponds to depolarization of the atria <span class="citation" data-cites="CVphys mohrman2006cardiovascular openStaxElectrical">(Klabunde, n.d.; Mohrman and Heller 2006; OpenStax CNX, n.d.b)</span>. Atrial systole begins around the peak of the P wave (Fig. <a href="#fig:ecg" data-reference-type="ref" data-reference="fig:ecg">8</a>) and the atria contract to pump blood into the ventricles. The second event is known as the QRS complex, which is characterized by a sequence of negative and positive deflections as depolarization spreads through the ventricles. Ventricular systole begins around the peak of the complex event (R) and blood is ejected from the heart. Finally, the T wave is generated as a wave of repolarization spreads through the ventricles and they enter diastole. At first it seems counteruntiuitive that repolarization should produce a positive deflection. However, it makes sense if we consider the order in which ventricular cells repolarize: the last to be excited are the first to relax <span class="citation" data-cites="CVphys mohrman2006cardiovascular">(Klabunde, n.d.; Mohrman and Heller 2006)</span>. So, while the electrical dipoles are reversed, so is the direction of wave propagation.</p>
+<p>Measuring the intervals between electrical events observed in the ECG is useful for diagnostic purposes <span class="citation" data-cites="CVphys mohrman2006cardiovascular openStaxElectrical">(Klabunde, n.d.; Mohrman and Heller 2006; OpenStax CNX, n.d.b)</span>. For example, the PR interval indicates the time it takes for electrical signals to propagate from the atria through the conduction system to the ventricles. Deviation from the normal interval range is seen in clinical conditions involving problems with electrical conduction, such as first-degree heart block. The ST segment represents the time elapsed between ventricular depolarization (i.e., plateau phase) and the beginning of repolarization. ST segment elevation is one of the primary indicators of a heart attack <span class="citation" data-cites="CVphys mohrman2006cardiovascular openStaxElectrical">(Klabunde, n.d.; Mohrman and Heller 2006; OpenStax CNX, n.d.b)</span>.</p>
+<h2 class="unnumbered" id="study-questions">Study questions</h2>
+<ol>
+<li><p>How would you calculate the cardiac frequency from an ECG recording?</p></li>
+<li><p>What would it mean if you saw changes in the amplitude of one or more of the ECG waves?</p></li>
+<li><p>How do you think exercise will affect the ECG recording?</p></li>
+</ol>
+<h1 class="unnumbered" id="procedure">PROCEDURE</h1>
+<p>Before beginning, make sure you have all the necessary equipment and have installed the Backyard Brains recording software on your computer. The following steps will guide you in setting up the equipment and carrying out recordings.</p>
+<h2 class="unnumbered" id="setup-ecg-recordings">1. Setup ECG recordings</h2>
+<p>The Heart and Brain Spikershield comes fully assembled and ready to record. All you have to do is connect the cables and electrodes.</p>
+<ol>
+<li><p>Turn on the Heart and Brain Spikershield by connecting one end of the blue cable into the device and the other end into the USB port of your computer; you should see a light flash to indicate the device is working</p></li>
+<li><p>Connect the orange cable to its corresponding port on the Heart and Brain Spikershield</p></li>
+<li><p>Place the two recording electrodes, either on the inner wrists or across the chest</p></li>
+<li><p>Place another surface electrode on the back of your hand or over your hip bone to act as a reference</p>
+<figure>
+<img src="figures/ecgConfig.png" id="fig:config" style="width:60.0%" alt="" /><figcaption>Electrode placement for ECG. Recording electrodes can be placed either on the wrists or across the chest, and the reference electrode placed on the back of the hand or over the hip bone.</figcaption>
+</figure></li>
+<li><p>Connect each of the red aligator clips on the end of the orange cable to one of the surface electrodes on the wrists or chest; avoid entangling the cables</p></li>
+<li><p>Connect the black aligator clip to the reference electrode on your hand or hip</p></li>
+<li><p>To avoid noise artifacts, ensure that no clothing is touching the electrodes or brushing against the cables during recording; this is especially important if electrodes are placed on the chest</p></li>
+</ol>
+<h2 class="unnumbered" id="test-ecg-recordings">1. Test ECG recordings</h2>
+<ol>
+<li><p>Open the Backyard Brains recording software and explore the controls and settings (for more info on software use, see <span class="citation" data-cites="spikeRecorder">(Brains 2015)</span>)</p></li>
+<li><p>When first connecting, you will likely see just noise; press the Config button to access the controls</p></li>
+<li><p>Ask the subject to hold still and breathe normally</p></li>
+<li><p>Verify that the principal ECG events, i.e. the P, QRS, and T waves, can be observed; at any time you can adjust the time window or signal gain to improve visualization of the recording</p></li>
+<li><p>Try saving a recording to your computer (format will be .wav)</p></li>
+</ol>
+<figure>
+<img src="figures/BBrecorder.png" id="fig:recorder" style="width:80.0%" alt="" /><figcaption>Recording software interface. Image credit: Backyard Brains, CC BY SA</figcaption>
+</figure>
+<h2 class="unnumbered" id="collect-ecg-data">3. Collect ECG data</h2>
+<ol>
+<li><p>Make sure the ECG is ready to record and subject is in resting position</p></li>
+<li><p>When the subject is ready, press record on the Backyard Brains software interface</p></li>
+<li><p>The subject should remain as still as possible during the recording to avoid generating movement artifacts</p></li>
+<li><p>Record the baseline ECG for 1-2 minutes</p></li>
+<li><p>Terminate the recording and save the data to your computer; use a file name that indicates the recording was taken at rest</p></li>
+<li><p>ECGs should be saved and exported in .wav format for analysis</p></li>
+<li><p>Disconnect the device from the computer and disconnect the alligator clips but leave the surface electrodes in place</p></li>
+<li><p>Ask the subject to perform at least 5 minutes of physical activity; this could include jogging in place, pushups, or climbing stairs</p></li>
+<li><p>Once the subject has completed the physical activity, reconnect the alligator clips to the electrodes</p></li>
+<li><p>Reconnect the device to the computer; you will likely have to reconfigure the device in settings to reestablish the ECG signal</p></li>
+<li><p>Press record on the Backyard Brains software interface</p></li>
+<li><p>Record the ECG post-exercise for 1-2 minutes</p></li>
+<li><p>Terminate the recording and save the data to your computer; use a file name that indicates the recording was taken after exercise</p></li>
+<li><p>Repeat the above steps in at least 3-5 subjects to compare results</p></li>
+<li><p>Exercise duration and intensity can also be varied to explore the effects</p></li>
+</ol>
+<h1 class="unnumbered" id="acknowledgments">ACKNOWLEDGMENTS</h1>
+<p>This work was supported by UNAM-DGAPA-PAPIME PE213817 and PE213219.</p>
+<div id="refs" class="references hanging-indent" role="doc-bibliography">
+<div id="ref-spikeRecorder">
+<p>Brains, Backyard. 2015. “Spike Recorder Documentation: Getting Started.”</p>
+</div>
+<div id="ref-backyardBrainsECG">
+<p>———. n.d. “Experiment: Heart Action Potentials.”</p>
+</div>
+<div id="ref-difrancesco2012funny">
+<p>DiFrancesco, D., and D. Noble. 2012. “The Funny Current Has a Major Pacemaking Role in the Sinus Node.” <em>Heart Rhythm</em> 9 (2): 299–301.</p>
+</div>
+<div id="ref-feher2012quantitative">
+<p>Feher, J. 2012. “The Heart as a Pump.” In <em>Quantitative Human Physiology: An Introduction (Second Edition)</em>, 516–24. Philadelphia, Pennsylvania, USA: Academic Press.</p>
+</div>
+<div id="ref-guyton2016book">
+<p>Guyton, A. C., and J. E. Hall. 2016. <em>Textbook of Medical Physiology</em>. 13th ed. Philadelphia, Pennsylvania, USA: Elsevier, Inc.</p>
+</div>
+<div id="ref-khanHeart">
+<p>Khan Academy. n.d.a. “The Heart Is a Double Pump.”</p>
+</div>
+<div id="ref-khanPV">
+<p>———. n.d.b. “Understanding Cardiac Pressure-Volume Curves.”</p>
+</div>
+<div id="ref-khanWork">
+<p>———. n.d.c. “Your Heart Does Work: A Relationship of Pressure and Volume.”</p>
+</div>
+<div id="ref-CVphys">
+<p>Klabunde, R. E. n.d. “Cardiovascular Physiology Concepts: Electrocardiogram (Ekg, Ecg).”</p>
+</div>
+<div id="ref-mccall2010physics">
+<p>McCall, R. P. 2010. <em>Physics of the Human Body</em>. The Johns Hopkins University Press.</p>
+</div>
+<div id="ref-mohrman2006cardiovascular">
+<p>Mohrman, D. E., and L. J. Heller. 2006. <em>Cardiovascular Physiology</em>. Lange Medical Books/McGraw-Hill New York.</p>
+</div>
+<div id="ref-openStaxHeart">
+<p>OpenStax CNX. n.d.a. “19.1 Heart Anatomy.” In <em>OpenStax, Anatomy &amp; Physiology</em>. Rice University.</p>
+</div>
+<div id="ref-openStaxElectrical">
+<p>———. n.d.b. “19.2 Cardiac Muscle and Electrical Activity.” In <em>OpenStax, Anatomy &amp; Physiology</em>. Rice University.</p>
+</div>
+<div id="ref-openStaxCycle">
+<p>———. n.d.c. “19.3 Cardiac Cycle.” In <em>OpenStax, Anatomy &amp; Physiology</em>. Rice University.</p>
+</div>
+<div id="ref-sperelakis2012cell">
+<p>Sperelakis, N. 2012. <em>Cell Physiology Source Book: Essentials of Membrane Biophysics</em>. Elsevier.</p>
+</div>
+</div>
+</body>
+</html>

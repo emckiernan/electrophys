@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ECGbasics.aux
+The style file: unsrtnat.bst
+Database file #1: ECG.bib
+Warning--empty year in khanHeart
+Warning--empty year in khanWork
+Warning--empty year in khanPV
+Warning--empty year in openStaxHeart
+Warning--empty year in openStaxCycle
+Warning--empty year in openStaxElectrical
+Warning--empty year in CVphys
+Warning--empty year in backyardBrainsECG
+You've used 15 entries,
+            2481 wiz_defined-function locations,
+            626 strings with 7528 characters,
+and the built_in function-call counts, 4496 in all, are:
+= -- 385
+> -- 129
+< -- 16
++ -- 70
+- -- 36
+* -- 228
+:= -- 683
+add.period$ -- 50
+call.type$ -- 15
+change.case$ -- 27
+chr.to.int$ -- 11
+cite$ -- 23
+duplicate$ -- 280
+empty$ -- 504
+format.name$ -- 57
+if$ -- 994
+int.to.chr$ -- 5
+int.to.str$ -- 16
+missing$ -- 13
+newline$ -- 84
+num.names$ -- 45
+pop$ -- 190
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 154
+stack$ -- 0
+substring$ -- 87
+swap$ -- 45
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 93
+warning$ -- 8
+while$ -- 35
+width$ -- 0
+write$ -- 196
+(There were 8 warnings)

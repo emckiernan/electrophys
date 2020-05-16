@@ -1,0 +1,48 @@
+Información sobre los registros de electromiograma
+
+recording_2 (S1_EMG_bicep_flexExt)
+Se registró el bicep del sujeto 1. Se mantuvo el brazo 10 s abajo en reposo, luego 10 s con el codo doblado en un ángulo de 90◦ , después 10 s el codo doblado en un ángulo de 180◦ codo, finalmente 10s manteniendo esta última posición con tensión.
+
+recording_3 (S1_EMG_bicep_salute)
+Se registró el bicep del sujeto 1. Primero se mantuvo el brazo abajo en reposo, después se alzó el brazo, luego se llevó a cabo el saludo a la bandera y al final se hizo el saludo a la bandera con tensión.
+
+recording_4 (S1_EMG_bicep_weight)
+Se registró el bicep del sujeto 1. Los primeros 10 s se levantó una mochila a 90◦ , los siguientes 10 s se levantó una mochila a 180◦ , en después fueron 10 s donde hubo un periodo de transición, luego se levantaron 2 mochilas a 90◦ durante 10 s y luego se levantaron 2 mochilas a 180◦ por 10 s.
+
+recording_5 (S1_EMG_tricep_twistWeight)
+Se registró el tricep del sujeto 1. Los primeros 10 s se mantuvo en reposo, luego fueron 10 s donde se giró el brazo, en los siguientes 10 s se cambió de posición, luego durante los últimos 20 s se movió el brazo hacia arriba y hacia abajo sujetando una botella de agua.
+
+recording_6 (S1_EMG_tricep_dips)
+Se registró el tricep del sujeto 1. Se hicieron 5 fondos sosteniendo abajo el quinto y luego manteniendo la posición arriba.
+
+recording_7 (S2_EMG_forearm_tension)
+Se registró el músculo del antebrazo del sujeto 2. Hubo 10 s de descanso, luego 10 s tenso y 10 s con el músculo tenso girando el brazo.
+
+recording_8 (S2_EMG_forearm_karate)
+Se registró el músculo del antebrazo del sujeto 2, los primeros 10 s fueron con una técnica incorrecta de karate mientras que los últimos 10 s fueron con una técnica considerada correcta de karate.
+
+recording_9 (S2_EMG_forearm_grip)
+Se registró el músculo del antebrazo del sujeto 2. Se realizaron 5 contracciones con la pinza de ejercicio y se sostuvo la última.
+
+recording_10 (S2_EMG_forearm_wrestle)
+Se registró el músculo del antebrazo del sujeto 2 en un juego de fuercitas. Cerca del segundo 14, el sujeto perdió el juego de fuercitas.
+
+recording_11 (S3_EMG_jawMuscle_chewSmile)
+Se registró un músculo facial de la mandı́bula del sujeto 3. Durante los primeros 50 s, el sujeto comió una picafresa, luego hubo 10 s de descanso, finalmente fueron 10 s de una sonrisa forzada.
+Cabe resaltar que en esta grabación con el archivo en extensión .wav, se escuchaba claramente como cada una de las contracciones de las fibras musculares coincidı́a con cada una de las mordidas.
+
+recording_12 (S4_EMG_bicep_flexExt)
+Se registró el bicep del sujeto 4. Las mismas pruebas que con el sujeto 2 en la figura 6, pero cambiando de sujeto. (Se mantuvo el brazo 10 s abajo en reposo, luego 10 s con el codo doblado en un ángulo de 90◦ , después 10 s el codo doblado en un ángulo de 180◦ codo, finalmente 10s manteniendo esta posición con tensión.). También se cambiaron los electrodos que se habı́an estado usando a unos más pequeños.
+
+recording_13 (recording not used)
+Se registró el bicep del sujeto 4 pero se desconectó un electrodo. Cuando se desconectó, el aparato comenzó a emitir un ruido molesto.
+
+recording_14 (S4_EMG_bicep_weight)
+Se registró el bicep del sujeto 4. Lo mismo que en la figura 8 (los primeros 10 s se levantó una mochila a 90◦ , los siguientes 10 s se levantó una mochila a 180◦, en después fueron 10 s donde hubo un periodo de transición, luego se levantaron 2 mochilas a 90◦ durante 10 s y luego se levantaron 2 mochilas a 180◦ por 10 s), pero el sujeto 4.
+
+recording_15 (S4_EMG_shoulder_weight)
+Se registró el músculo del hombro del sujeto 4. Los primeros 10 s fueron de descanso, luego 10s manteniendo el brazo arriba a 90◦, después se mantuvo la misma posición durante 10 s pero sujetando una mochila.
+Se volvió a hacer un ejercicio donde se viera el cambio en el nivel de contracción del músculo, pero no se muestra el cambio de intensidad en el segundo 20.
+
+recording_16 (? muscle - not used for now)
+Se registró el músculo del sujeto 4. Los primeros 10 s fueron en reposo, luego 5 repeticiones sin peso, el quinto sostenido, 5 repeticiones con peso y el quinto sostenido.

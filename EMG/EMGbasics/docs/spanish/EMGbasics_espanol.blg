@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: EMGbasics_espanol.aux
+The style file: unsrtnat.bst
+Database file #1: refs.bib
+Warning--I didn't find a database entry for "guyton20006textbook"
+You've used 11 entries,
+            2481 wiz_defined-function locations,
+            618 strings with 7146 characters,
+and the built_in function-call counts, 3702 in all, are:
+= -- 341
+> -- 101
+< -- 13
++ -- 54
+- -- 28
+* -- 199
+:= -- 562
+add.period$ -- 46
+call.type$ -- 11
+change.case$ -- 22
+chr.to.int$ -- 7
+cite$ -- 11
+duplicate$ -- 236
+empty$ -- 412
+format.name$ -- 45
+if$ -- 833
+int.to.chr$ -- 5
+int.to.str$ -- 12
+missing$ -- 9
+newline$ -- 69
+num.names$ -- 33
+pop$ -- 123
+preamble$ -- 1
+purify$ -- 11
+quote$ -- 0
+skip$ -- 119
+stack$ -- 0
+substring$ -- 92
+swap$ -- 37
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 77
+warning$ -- 0
+while$ -- 29
+width$ -- 0
+write$ -- 162
+(There was 1 warning)

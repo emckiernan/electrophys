@@ -1,0 +1,86 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Open Learning Initiative}(2015)]{leversOLI}
+{Open Learning Initiative}.
+\newblock {Levers and Movement}.
+\newblock In \emph{Anatomy \& Physiology}. Carnegie Mellon University, 2015.
+\newblock
+  \href{https://oli.cmu.edu/jcourse/workbook/activity/page?context=df3c7cac0a0001dc63b5a789a1529c51}{https://oli.cmu.edu/jcourse/workbook/activity/page?context=df3c7cac0a0001dc63b5a789a1529c51}.
+
+\bibitem[{OpenStax CNX}(2016{\natexlab{a}})]{openStax2016lever}
+{OpenStax CNX}.
+\newblock {Interactions of Skeletal Muscles, Their Fascicle Arrangement, and
+  Their Lever Systems}.
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University,
+  2016{\natexlab{a}}.
+\newblock \newline
+  \href{https://cnx.org/contents/FPtK1zmh@8.108:mU03zyTM@2/Interactions-of-Skeletal-Muscl}{https://cnx.org/contents/FPtK1zmh@8.108:mU03zyTM@2/Interactions-of-Skeletal-Muscl}.
+
+\bibitem[{OpenStax CNX}(2016{\natexlab{b}})]{openStax2016axial}
+{OpenStax CNX}.
+\newblock {Axial Muscles of the Head, Neck, and Back}.
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University,
+  2016{\natexlab{b}}.
+\newblock \newline
+  \href{https://cnx.org/contents/FPtK1zmh@8.108:\_xq2eUyd@5/Axial-Muscles-of-the-Head-Neck}{https://cnx.org/contents/FPtK1zmh@8.108:\_xq2eUyd@5/Axial-Muscles-of-the-Head-Neck}.
+
+\bibitem[{OpenStax CNX}(2016{\natexlab{c}})]{openStax2016muscle}
+{OpenStax CNX}.
+\newblock {Skeletal Muscle}.
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University,
+  2016{\natexlab{c}}.
+\newblock \newline
+  \href{https://cnx.org/contents/FPtK1zmh@8.108:bfiqsxdB@3/Skeletal-Muscle}{https://cnx.org/contents/FPtK1zmh@8.108:bfiqsxdB@3/Skeletal-Muscle}.
+
+\bibitem[Granzier and Labeit(2006)]{granzier2006giant}
+H.L. Granzier and S.~Labeit.
+\newblock The giant muscle protein titin is an adjustable molecular spring.
+\newblock \emph{Exercise and Sport Sciences Reviews}, 34\penalty0 (2):\penalty0
+  50--53, 2006.
+
+\bibitem[{OpenStax CNX}(2016{\natexlab{d}})]{openStax2016contraction}
+{OpenStax CNX}.
+\newblock {Muscle Fiber Contraction and Relaxation}.
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University,
+  2016{\natexlab{d}}.
+\newblock \newline
+  \href{https://cnx.org/contents/FPtK1zmh@8.108:EtWWcJM-@5/Muscle-Fiber-Contraction-and-R}{https://cnx.org/contents/FPtK1zmh@8.108:EtWWcJM-@5/Muscle-Fiber-Contraction-and-R}.
+
+\bibitem[Richfield(2014)]{richfieldSarcomere}
+D.~Richfield.
+\newblock {Diagrammatic explanation of sliding filament hypothesis, Medical
+  gallery of David Richfield}, 2014.
+\newblock DOI:10.15347/wjm/2014.009. ISSN 2002-4436.
+
+\bibitem[{OpenStax CNX}(2016{\natexlab{e}})]{openStax2016nervous}
+{OpenStax CNX}.
+\newblock {Nervous System Control of Muscle Tension}.
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University,
+  2016{\natexlab{e}}.
+\newblock \newline
+  \href{https://cnx.org/contents/FPtK1zmh@8.108:Adm7XcTb@4/Nervous-System-Control-of-Musc}{https://cnx.org/contents/FPtK1zmh@8.108:Adm7XcTb@4/Nervous-System-Control-of-Musc}.
+
+\bibitem[Schneider and Hern{\'a}ndez-Ochoa(2012)]{schneider2012skeletal}
+M.F. Schneider and E.O. Hern{\'a}ndez-Ochoa.
+\newblock {Skeletal Muscle Excitation--Contraction Coupling}.
+\newblock In \emph{Muscle: Fundamental Biology and Mechanisms of Disease},
+  volume~2, pages 811--821. Elsevier, 2012.
+
+\bibitem[Cavalcanti~Garcia and M.~Vieira(2011)]{garcia2011surface}
+M.A. Cavalcanti~Garcia and T.M. M.~Vieira.
+\newblock Surface electromyography: Why, when and how to use it.
+\newblock \emph{Revista Andaluza de Medicina del Deporte}, 4\penalty0
+  (1):\penalty0 17--28, 2011.
+
+\bibitem[Brains(2015)]{spikeRecorder}
+Backyard Brains.
+\newblock Spike recorder documentation: Getting started, 2015.
+\newblock \newline
+  \href{https://backyardbrains.com/products/files/SpikeRecorderDocumentation.2015.01.pdf}{https://backyardbrains.com/products/files/SpikeRecorderDocumentation.2015.01.pdf}.
+
+\end{thebibliography}
