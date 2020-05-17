@@ -1,0 +1,65 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{OpenStax CNX}(2016)]{openStax2016resp}
+{OpenStax CNX}.
+\newblock {22.3 The Process of Breathing}.
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University, 2016.
+\newblock Available at
+  \href{https://cnx.org/contents/FPtK1zmh@8.24:u67b9E14@6/The-Process-of-Breathing}{https://cnx.org/contents/FPtK1zmh@8.24:u67b9E14@6/The-Process-of-Breathing}.
+
+\bibitem[Sieck et~al.(2013)Sieck, Ferreira, Reid, and
+  Mantilla]{sieck2013mechanical}
+G.C. Sieck, L.F. Ferreira, M.B. Reid, and C.B. Mantilla.
+\newblock Mechanical properties of respiratory muscles.
+\newblock \emph{Comprehensive Physiology}, 3\penalty0 (4):\penalty0 1553--1567,
+  2013.
+
+\bibitem[Guyton and Hall(2006)]{guyton20006textbook}
+A.C. Guyton and J.E. Hall.
+\newblock \emph{Textbook of Medical Physiology}.
+\newblock Elsevier Saunders, Philadelphia, Pennsylvania, USA, 11 edition, 2006.
+
+\bibitem[de~Troyer and Loring(1986)]{troyer1986action}
+A.~de~Troyer and S.H. Loring.
+\newblock Action of the respiratory muscles.
+\newblock In \emph{Supplement 12: Handbook of Physiology, The Respiratory
+  System, Mechanics of Breathing}. 1986.
+\newblock Published online via Comprehensive Physiology.
+
+\bibitem[Ratnovsky et~al.(2008)Ratnovsky, Elad, and
+  Halpern]{ratnovsky2008mechanics}
+A.~Ratnovsky, D.~Elad, and P.~Halpern.
+\newblock Mechanics of respiratory muscles.
+\newblock \emph{Respiratory Physiology \& Neurobiology}, 163:\penalty0 82--89,
+  2008.
+
+\bibitem[Cavalcanti~Garcia and M.~Vieira(2011)]{garcia2011surface}
+M.A. Cavalcanti~Garcia and T.M. M.~Vieira.
+\newblock Surface electromyography: Why, when and how to use it.
+\newblock \emph{Revista Andaluza de Medicina del Deporte}, 4\penalty0
+  (1):\penalty0 17--28, 2011.
+
+\bibitem[S{\'a}nchez-Godoy(2010)]{sanchez2010respiratory}
+J.A. S{\'a}nchez-Godoy.
+\newblock Respiratory physiology.
+\newblock In E.A. Gabriel and T.~Salerno, editors, \emph{{Principles of
+  Pulmonary Protection in Heart Surgery}}, pages 9--26. Springer Verlag, 2010.
+
+\bibitem[Schlegelmilch and Kramme(2011)]{schlegelmilch2011pulmonary}
+R.M. Schlegelmilch and R.~Kramme.
+\newblock Pulmonary function testing.
+\newblock In R.~Kramme, K-P. Hoffman, and R.~Pozos, editors, \emph{Springer
+  Handbook of Medical Technology}, pages 95--117. Springer, 2011.
+
+\bibitem[Brains(2015)]{spikeRecorder}
+Backyard Brains.
+\newblock Spike recorder documentation: Getting started, 2015.
+\newblock Retrieved November 2017 from
+  \href{https://backyardbrains.com/products/files/SpikeRecorderDocumentation.2015.01.pdf}{https://backyardbrains.com/products/files/SpikeRecorderDocumentation.2015.01.pdf}.
+
+\end{thebibliography}

@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: EOGbasics.aux
+The style file: unsrtnat.bst
+Database file #1: eye.bib
+Warning--empty year in khanTransport
+You've used 15 entries,
+            2481 wiz_defined-function locations,
+            654 strings with 7895 characters,
+and the built_in function-call counts, 5514 in all, are:
+= -- 480
+> -- 223
+< -- 14
++ -- 93
+- -- 63
+* -- 354
+:= -- 856
+add.period$ -- 52
+call.type$ -- 15
+change.case$ -- 28
+chr.to.int$ -- 15
+cite$ -- 16
+duplicate$ -- 308
+empty$ -- 560
+format.name$ -- 86
+if$ -- 1206
+int.to.chr$ -- 1
+int.to.str$ -- 16
+missing$ -- 14
+newline$ -- 85
+num.names$ -- 51
+pop$ -- 161
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 180
+stack$ -- 0
+substring$ -- 219
+swap$ -- 48
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 99
+warning$ -- 1
+while$ -- 49
+width$ -- 0
+write$ -- 203
+(There was 1 warning)

@@ -1,0 +1,107 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Foulsham(2015)]{foulsham2015eye}
+T.~Foulsham.
+\newblock Eye movements and their functions in everyday tasks.
+\newblock \emph{Eye}, 29\penalty0 (2):\penalty0 196--199, 2015.
+
+\bibitem[Schor(2011)]{schor2011neural}
+C.M. Schor.
+\newblock Neural control of eye movements.
+\newblock In L.A. Levin, S.F.E. Nilsson, J.~Ver~Hoeve, S.M. Wu, A.~Alm, and
+  P.L. Kaufman, editors, \emph{Adler’s Physiology of the Eye, 11th edition},
+  pages 830--858. Saunders Elsevier, 2011.
+
+\bibitem[Mather(2016)]{mather2016foundations}
+G.~Mather.
+\newblock \emph{{Foundations of Sensation and Perception}}.
+\newblock Psychology Press, 2016.
+
+\bibitem[Purves et~al.(2001)Purves, Augustine, and
+  Fitzpatrick]{purves2001editors}
+D.~Purves, G.J. Augustine, and D.~et~al. Fitzpatrick.
+\newblock \emph{Neuroscience, 2nd edition}.
+\newblock Sinauer Associates, Sunderland, MA, U.S.A., 2001.
+
+\bibitem[{OpenStax CNX}(2017)]{openStax2017sensory}
+{OpenStax CNX}.
+\newblock {Sensory Perception}.
+\newblock In \emph{OpenStax, Anatomy \& Physiology}. Rice University, 2017.
+\newblock Available at
+  \href{https://cnx.org/contents/s3XqfSLV@9/Sensory-Perception}{https://cnx.org/contents/s3XqfSLV@9/Sensory-Perception}.
+
+\bibitem[{HyperPhysics, Department of Physics and Astronomy, Georgia State
+  University}(2016)]{hyperphysicsDipole}
+{HyperPhysics, Department of Physics and Astronomy, Georgia State University}.
+\newblock Dipole moment, electric dipole potential, electric dipole field,
+  2016.
+\newblock Retrieved February 2018 from
+  \href{http://hyperphysics.phy-astr.gsu.edu/hbase/electric/dipole.html}{http://hyperphysics.phy-astr.gsu.edu/hbase/electric/dipole.html}.
+
+\bibitem[Heide et~al.(1999)Heide, Koenig, Trillenberg, K{\"o}mpf, and
+  Zee]{heide1999electrooculography}
+W.~Heide, E.~Koenig, P.~Trillenberg, D.~K{\"o}mpf, and D.S. Zee.
+\newblock Electrooculography: technical standards and applications.
+\newblock In G.~Deuschl and A.~Eisen, editors, \emph{Recommendations for the
+  Practice of Clinical Neurophysiology: Guidelines of the International
+  Federation of Clinical Physiology (EEG Suppl. 52)}, pages 223--240. Elsevier,
+  1999.
+
+\bibitem[Marg(1951)]{marg1951development}
+E.~Marg.
+\newblock Development of electro-oculography: Standing potential of the eye in
+  registration of eye movement.
+\newblock \emph{AMA Archives of Ophthalmology}, 45\penalty0 (2):\penalty0
+  169--185, 1951.
+
+\bibitem[Malmivuo and Plonsey(1995)]{malmivuo1995bioelectromagnetism}
+J.~Malmivuo and R.~Plonsey.
+\newblock The electric signals originating in the eye.
+\newblock In \emph{Bioelectromagnetism: Principles and Applications of
+  Bioelectric and Biomagnetic Fields}. Oxford University Press, 1995.
+\newblock Available \href{http://www.bem.fi/book/}{http://www.bem.fi/book/}.
+
+\bibitem[Berg and Scherg(1991)]{berg1991dipole}
+P.~Berg and M.~Scherg.
+\newblock Dipole models of eye movements and blinks.
+\newblock \emph{Electroencephalography and Clinical Neurophysiology},
+  79\penalty0 (1):\penalty0 36--44, 1991.
+
+\bibitem[Joseph and Miller(1991)]{joseph1991apical}
+D.P. Joseph and S.S Miller.
+\newblock Apical and basal membrane ion transport mechanisms in bovine retinal
+  pigment epithelium.
+\newblock \emph{The Journal of Physiology}, 435\penalty0 (1):\penalty0
+  439--463, 1991.
+
+\bibitem[Quinn and Miller(1992)]{quinn1992ion}
+R.H. Quinn and S.S. Miller.
+\newblock Ion transport mechanisms in native human retinal pigment epithelium.
+\newblock \emph{Investigative Ophthalmology \& Visual Science}, 33\penalty0
+  (13):\penalty0 3513--3527, 1992.
+
+\bibitem[Academy()]{khanTransport}
+Khan Academy.
+\newblock Passive transport and active transport across a cell membrane.
+\newblock Retrieved February 2018 from
+  \href{https://www.khanacademy.org/test-prep/mcat/cells/transport-across-a-cell-membrane/a/passive-transport-and-active-transport-across-a-cell-membrane-article}{https://www.khanacademy.org/test-prep/mcat/cells/transport-across-a-cell-membrane/a/passive-transport-and-active-transport-across-a-cell-membrane-article}.
+
+\bibitem[Viqueira et~al.(2013)Viqueira, Garc{\'\i}a~Zapirain, and
+  Mendez~Zorrilla]{viqueira2013ocular}
+M.~Viqueira, B.~Garc{\'\i}a~Zapirain, and A.~Mendez~Zorrilla.
+\newblock Ocular movement and cardiac rhythm control using eeg techniques.
+\newblock In O.F. Erondu, editor, \emph{Medical Imaging in Clinical Practice}.
+  InTech, 2013.
+
+\bibitem[Brains(2015)]{spikeRecorder}
+Backyard Brains.
+\newblock Spike recorder documentation: Getting started, 2015.
+\newblock Retrieved November 2017 from
+  \href{https://backyardbrains.com/products/files/SpikeRecorderDocumentation.2015.01.pdf}{https://backyardbrains.com/products/files/SpikeRecorderDocumentation.2015.01.pdf}.
+
+\end{thebibliography}
