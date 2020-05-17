@@ -1,7 +1,7 @@
 
 <h2>Practicals (documents)</h2>
 
-<p>Any practicals generated under this project are licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+<p>Any practicals generated under this project are licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
 The following is a human-readable summary of the license. The full legal code can be read <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">here</a>.</p>
 
 <p>You are free to:<br/>
