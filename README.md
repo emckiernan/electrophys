@@ -4,7 +4,8 @@
 
 <strong>Participating professors</strong>: Marco A. Herrera Valdez<sup>2</sup>, Rodrigo A. Martín Salas<sup>1</sup>, Sergio E. Solis Najera<sup>1</sup>, Lucia Medina Gómez<sup>1</sup>
 
-<strong>Student assistants</strong>: Jenifer Alejandra Parra Reyes<sup>3</sup>, Carol Molina Martínez<sup>3</sup>, Ana Daniela del Río Pulido<sup>3</sup>, Diana Alejandra Cuevas Salazar<sup>4</sup>, Noel Isaías Plascencia Díaz<sup>4</sup>, Carlos Ignacio Herrera Nolasco<sup>5</sup>, Mitsui Myrna Salgado Saito<sup>6</sup> 
+<strong>Student contributors</strong>: Diego Alberto Barceló Nieves<sup>3</sup>, Rogelio Barrios Rosas<sup>3</sup>, Diana Alejandra Cuevas Salazar<sup>4</sup>, Daniel Gómez Pérez<sup>3</sup>, José Carlos Hernández Herrerías<sup>4</sup>, Carlos Ignacio Herrera Nolasco<sup>5</sup>, Carol Molina Martínez<sup>3</sup>, Juan Carlos Morales Cordova<sup>3</sup>, Jenifer Alejandra Parra Reyes<sup>3</sup>, Noel Isaías Plascencia Díaz<sup>4</sup>, Estíbaliz Margarita Ramírez Vázquez<sup>3</sup>, Ana Daniela del Río Pulido<sup>3</sup>, Angélica Rubio García<sup>7</sup>, Mitsui Myrna Salgado Saito<sup>6</sup> 
+
 
 ##### <sup>1</sup> Departamento de Física, Facultad de Ciencias, Universidad Nacional Autónoma de México
 ##### <sup>2</sup> Departamento de Matemáticas, Facultad de Ciencias, Universidad Nacional Autónoma de México
@@ -12,6 +13,7 @@
 ##### <sup>4</sup> Licenciatura en Física, Facultad de Ciencias, Universidad Nacional Autónoma de México
 ##### <sup>5</sup> Licenciatura en Matemáticas, Facultad de Ciencias, Universidad Nacional Autónoma de México
 ##### <sup>6</sup> Licenciatura en Ciencias de la Tierra, Facultad de Ciencias, Universidad Nacional Autónoma de México
+##### <sup>7</sup> Licenciatura en Biología, Facultad de Ciencias, Universidad Nacional Autónoma de México
 
 ## Overview
 
