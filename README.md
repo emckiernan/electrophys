@@ -1,5 +1,7 @@
 ## Electrophysiology practicals for undergraduate students
 
+[![DOI](https://zenodo.org/badge/125133807.svg)](https://zenodo.org/badge/latestdoi/125133807)
+
 <strong>Project lead</strong>: Erin C. McKiernan<sup>1</sup> (emck31 at gmail)
 
 <strong>Participating professors</strong>: Marco A. Herrera Valdez<sup>2</sup>, Rodrigo A. Martín Salas<sup>1</sup>, Sergio E. Solis Najera<sup>1</sup>, Lucia Medina Gómez<sup>1</sup>
