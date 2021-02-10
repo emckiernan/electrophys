@@ -1,7 +1,7 @@
 
 <h2>Practicals (documents)</h2>
 
-<p>Any practicals generated under this project are licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
+<p>Any practicals (documents) shared as part of this project are licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
 The following is a human-readable summary of the license. The full legal code can be read <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">here</a>.</p>
 
 <p>You are free to:<br/>
@@ -19,7 +19,7 @@ for any purpose, even commercially.</p>
 
 <h2>Code</h2>
 
-<p>Any code generated under this project is licensed under The MIT License (MIT).</p>
+<p>Any code shared as part of this project is licensed under The MIT License (MIT).</p>
 
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &ldquo;Software&rdquo;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 
@@ -30,7 +30,7 @@ for any purpose, even commercially.</p>
 
 <h2>Data</h2>
 
-<p>Any data generated under this project are licensed under the Creative Commons CC0 1.0 Universal license. The following is a human-readable summary of the license. The full legal code can be read <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">here</a>:</p>
+<p>Any data (recordings) shared as part of this project are licensed under the Creative Commons CC0 1.0 Universal license. The following is a human-readable summary of the license. The full legal code can be read <a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">here</a>:</p>
 
 <p><em>No Copyright</em>:</p>
 
