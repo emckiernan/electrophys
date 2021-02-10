@@ -1,0 +1,3 @@
+﻿# EOG recordings
+
+The recordings in this folder were performed during simple voluntary eye movements. Data are available from 3 subjects. In the file names, 'left-right' indicates lateral movements of both eyes simultaneously, while 'top-down' indicates elevation/depression of both eyes simultaneously. (In 1 subject, the specific direction of movement during recording was not indicated, so file names are just the trial number.) Electrode placement was changed to record these different movements. Full details of the protocol can be found in the 'docs' subdirectory, or on our website https://electrophys.wordpress.com/home/electrooculography-2/electrooculography/.  
