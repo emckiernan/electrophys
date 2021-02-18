@@ -1,8 +1,8 @@
 
 <h2>Practicals (documents)</h2>
 
-<p>Any practicals (documents) shared as part of this project are licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.
-The following is a human-readable summary of the license. The full legal code can be read <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode">here</a>.</p>
+<p>Any practicals (documents) shared as part of this project are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license.
+The following is a human-readable summary of the license. The full legal code can be read <a href="https://creativecommons.org/licenses/by/4.0/legalcode">here</a>.</p>
 
 <p>You are free to:<br/>
 <strong>Share</strong> — copy and redistribute the material in any medium or format<br/>
@@ -11,8 +11,6 @@ for any purpose, even commercially.</p>
 
 <p>Under the following terms:<br/>
 <strong>Attribution</strong> — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-
-<strong>ShareAlike</strong> — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
 <strong>No additional restrictions</strong> — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
