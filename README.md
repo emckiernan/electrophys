@@ -1,6 +1,6 @@
 ## Electrophysiology practicals for undergraduate students
 
-[![DOI](https://zenodo.org/badge/125133807.svg)](https://zenodo.org/badge/latestdoi/125133807)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4554420.svg)](https://doi.org/10.5281/zenodo.4554420)
 
 <strong>Project lead</strong>: Erin C. McKiernan<sup>1</sup> (emck31 at gmail)
 
