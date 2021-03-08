@@ -23,7 +23,7 @@ Electrophysiological techniques, such as electromyogram, electrocardiogram, and 
 
 For more information on this project, please see our paper:
 
-McKiernan E.C. and Medina Gómez L. Building capacity through open approaches: Lessons from developing undergraduate electrophysiology practicals [version 1; peer review: awaiting peer review]. <em>F1000Research<\em> 2021, 10:187 [https://doi.org/10.12688/f1000research.51049.1](https://doi.org/10.12688/f1000research.51049.1)
+McKiernan E.C. and Medina Gómez L. Building capacity through open approaches: Lessons from developing undergraduate electrophysiology practicals [version 1; peer review: awaiting peer review]. <em>F1000Research</em> 2021, 10:187 [https://doi.org/10.12688/f1000research.51049.1](https://doi.org/10.12688/f1000research.51049.1)
 
 ## Language and continued project development
 
