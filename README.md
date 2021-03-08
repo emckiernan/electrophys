@@ -21,6 +21,10 @@
 
 Electrophysiological techniques, such as electromyogram, electrocardiogram, and electroencephalogram recordings, are frequently used in research and clinical laboratories to study excitable tissues and even diagnose diseases. Thus, it is important, especially for students in the biomedical sciences, to learn about the underlying theory and applications of these techniques. The goal of this project is to develop a series of hands-on learning practicals designed to teach undergraduate students instrumentation, electrophysiological recording techniques, and data analysis of electrophysiological recordings. Additional practicals will deal with related skills, such as dissection, tissue preparation, and cell imaging. All educational materials (documents, data, code) are shared under open licenses to allow sharing, reuse, and adaptation. 
 
+For more information on this project, please see our paper in F1000Research:
+
+McKiernan E.C. and Medina Gómez L. Building capacity through open approaches: Lessons from developing undergraduate electrophysiology practicals [version 1; peer review: awaiting peer review]. <em>F1000Research<\em> 2021, 10:187 [https://doi.org/10.12688/f1000research.51049.1](https://doi.org/10.12688/f1000research.51049.1)
+
 ## Language and continued project development
 
 Currently, some materials are available only in English and others only in Spanish. We are working on translating all materials so there are English- and Spanish-language versions of all materials. In addition, over the next year, we will be working on more analysis and experimental practicals, and will also be adding raw data. So, please check back regularly for new materials. The latest versions of all our educational materials can be found in this repository, but you can also visit our project website for a more user-friendly interface, photos, etc. https://electrophys.wordpress.com.
